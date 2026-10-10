@@ -1,0 +1,20 @@
+html {
+  min-width: 320px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #0f8b78;
+  outline-offset: 2px;
+}
